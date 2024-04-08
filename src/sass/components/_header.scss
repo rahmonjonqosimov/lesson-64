@@ -1,0 +1,25 @@
+#header {
+  padding: 15px 0;
+  box-shadow: 4px 4px 10px #0003;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 50px;
+      color: #000;
+    }
+    .links {
+      display: flex;
+      gap: 41px;
+      .nav__links {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22.5px;
+        color: #000;
+      }
+    }
+  }
+}

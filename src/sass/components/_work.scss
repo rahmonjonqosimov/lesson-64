@@ -1,0 +1,59 @@
+#work {
+  padding: 33px 0;
+  .work {
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 60px;
+      color: #363738;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #6b6b6c;
+      max-width: 502px;
+      margin: 32px 0 56px;
+    }
+    .box {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      .card {
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px 0px #0000001f;
+        overflow: hidden;
+        &__text {
+          padding: 32px;
+          h6 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 27px;
+            color: #363738;
+          }
+          p {
+            color: #6b6b6c;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 16px 0 32px;
+          }
+          h5 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21.6px;
+            color: #363738;
+            width: 88px;
+            padding-bottom: 5px;
+            border-bottom: 3px solid #fff;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover {
+              border-bottom: 3px solid #ffce50;
+            }
+          }
+        }
+      }
+    }
+  }
+}

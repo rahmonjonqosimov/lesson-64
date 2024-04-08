@@ -1,0 +1,50 @@
+#services {
+  padding: 33px 0;
+  .services {
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    position: relative;
+    .service1 {
+      max-width: 230px;
+      .circle {
+        width: 92px;
+        height: 92px;
+        border-radius: 50%;
+        background: #e9e9ec;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        margin: 24px 0 14px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #6b6b6c;
+      }
+    }
+    .hr {
+      border: 1px solid #d7d7dd;
+      width: 260px;
+      position: absolute;
+      transform: rotate(90deg);
+    }
+    .hr-1 {
+      left: 50%;
+      transform: translate(-130%, 0) rotate(90deg);
+    }
+    .hr-2 {
+      right: 50%;
+      transform: translate(130%, 0) rotate(90deg);
+    }
+  }
+}
