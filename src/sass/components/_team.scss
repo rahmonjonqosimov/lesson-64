@@ -67,4 +67,50 @@
       width: 100%;
     }
   }
+  @media (max-width: 1100px) {
+    .left {
+      width: 30px !important;
+    }
+    .team__card {
+      padding: 20px 30px 20px 50px !important;
+      img {
+        width: 16px;
+      }
+      .user {
+        width: 90px;
+      }
+      p {
+        margin: 12px 0 12px !important;
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    h1 {
+      font-size: 36px !important;
+      text-align: center;
+      margin-bottom: 40px !important;
+    }
+    .team__box {
+      grid-template-columns: 1fr;
+      place-items: center;
+      .team__card {
+        max-width: 500px;
+        width: 100%;
+      }
+    }
+    .car {
+      margin: 30px auto !important;
+      border-radius: 8px;
+    }
+  }
+  @media (max-width: 450px) {
+    .left {
+      width: 20px !important;
+    }
+    .team__card {
+      padding-left: 24px !important;
+      padding-right: 10px;
+      width: 100% !important;
+    }
+  }
 }

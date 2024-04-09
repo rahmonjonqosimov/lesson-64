@@ -39,4 +39,39 @@
       }
     }
   }
+  @media (max-width: 850px) {
+    .steps {
+      .steps__card {
+        padding: 30px !important;
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    .steps {
+      h1 {
+        font-size: 36px;
+        text-align: center;
+      }
+      .steps__card {
+        flex-direction: column;
+        gap: 30px !important;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    .steps .cards .steps__card {
+      padding: 30px 10px !important;
+      .text__box p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+      }
+      h6 {
+        text-align: center;
+      }
+      .div {
+        display: none;
+      }
+    }
+  }
 }

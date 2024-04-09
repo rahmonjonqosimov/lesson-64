@@ -68,4 +68,19 @@
     text-align: center;
     margin-top: 30px;
   }
+  @media (max-width: 800px) {
+    padding: 30px 0;
+    .footer {
+      flex-direction: column;
+      ul {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+button {
+  transition: all 0.3s linear;
+}
+button:active {
+  transform: scale(0.95);
 }

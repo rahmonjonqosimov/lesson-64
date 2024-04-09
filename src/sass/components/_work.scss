@@ -56,4 +56,35 @@
       }
     }
   }
+  @media (max-width: 800px) {
+    .work {
+      h1 {
+        font-size: 36px;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        margin-top: 0;
+        margin: 0 auto 50px;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .card {
+          max-width: 390px;
+          img {
+            width: 100%;
+          }
+
+          &__text {
+            padding: 10px;
+            h6 {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
 }

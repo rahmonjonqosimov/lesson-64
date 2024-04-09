@@ -52,7 +52,7 @@ const Team = () => {
   let card = data?.map((el) => (
     <div key={el.id} className="team__card">
       <div className="left"></div>
-      <img src={el.image} alt={el.name} />
+      <img className="user" src={el.image} alt={el.name} />
       <div className="team__card__text">
         <h5>{el.name}</h5>
         <p>{el.companies}</p>
